@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  -webkit-text-size-adjust: 100%; /* stop ios zooming text  on orientation change */
+  text-size-adjust: 100%;
+  line-height: 1.5;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+}
+.wrap {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background: #ccc;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+}
+.wrap > * {
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+.page {
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.page:nth-child(even) {
+  background: teal;
+}
+.page a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.page:target .box {
+  transform: translateY(0%);
+}
+#page1 .box {
+  transform: translateY(0);
+}
+
+.logo {
+  width: 200px;
+  
+}
