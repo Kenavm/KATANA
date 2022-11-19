@@ -18,14 +18,14 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #a9957b;
+  --r-background-color: #f2e9e4;
   --r-main-font: Ubuntu, sans-serif;
   --r-main-font-size: 40px;
-  --r-main-color: #36454f;
+  --r-main-color: #4a4e69;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Ubuntu, sans-serif;
-  --r-heading-color: #eee;
+  --r-heading-color: #4a4e69;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
@@ -41,30 +41,30 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-link-color-dark: #6a1520;
   --r-link-color-hover: #dd5566;
   --r-selection-background-color: #a23;
-  --r-selection-color: #fff;
+  --r-selection-color: #030450;
 }
 
 .intro-page {
-  color: #36454f !important;
+  color: #4a4e69 !important;
   font-weight: bold;
 }
 
 .intro-page-header {
-  color: #36454f !important;
+  color: #4a4e69 !important;
   font-weight: bold;
   font-size: 70px !important;
  
 }
 p {
   font-weight: bold !important;
-  color: #36454f !important;
+  color: #4a4e69 !important;
   font-size: 50px;
 }
 
 .plan-for-the-week-header {
   font-size: 60px !important;
   position: absolute;
-  color: #36454f !important;
+  color: #4a4e69 !important;
  
 }
 
@@ -341,7 +341,7 @@ p {
 }
 
 .reveal .roll span:after {
-  color: #fff;
+  color: #030450;
   background: var(--r-link-color-dark);
 }
 
@@ -404,7 +404,7 @@ section.has-light-background p, section.has-light-background h1, section.has-lig
 }
 
 .reveal p code {
-  background-color: #23241f;
+  background-color: #030450;
   display: inline-block;
   border-radius: 7px;
 }
